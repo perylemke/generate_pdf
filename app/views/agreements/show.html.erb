@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Client name:</strong>
+  <%= @agreement.client_name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @agreement.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @agreement.price %>
+</p>
+
+<%= link_to 'Edit', edit_agreement_path(@agreement) %> |
+<%= link_to 'Back', agreements_path %>
